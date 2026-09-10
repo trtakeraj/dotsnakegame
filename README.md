@@ -10,7 +10,7 @@
 - आकर्षित खेलका बटनहरु जुन लोभलाग्दा देखिन्छन्।
 
 ## 📥 डाउनलोड
-[APK डाउनलोड गर्नुहोस्](https://your-username.github.io/dot-snake-game/)
+[APK डाउनलोड गर्नुहोस्]([(https://trtakeraj.github.io/dotsnakegame/])
 
 ## 📞 सम्पर्क
 Game Zone Free 100 – नेपालको गेमिङ ब्लग.
