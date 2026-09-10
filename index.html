@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>डट स्नेक गेम – Dot Snake Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: #D0D5D5;
+            color: #102DF4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2px;
+        }
+        .container {
+            max-width: 650px;
+            background: #E2E3E9;
+            padding: 40px 35px;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            border: 1px solid #2a2a4a;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #E11BD4;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #108C1A;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #2a2a4a;
+            padding-bottom: 15px;
+        }
+        .description {
+            font-size: 1rem;
+            line-height: 1.7;
+            text-align: center;
+            margin: 20px 0;
+            color: #1B4BA8;
+        }
+        .features {
+            text-align: left;
+            background: #8D98AE;
+            padding: 18px 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid #8B0C5E;
+        }
+        .features h3 {
+            color: #6ADA0D;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features ul li {
+            padding: 6px 0;
+            border-bottom: 1px solid #B5CBF3;
+            font-size: 0.95rem;
+        }
+        .features ul li:last-child {
+            border-bottom: none;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #2F33F5;
+            color: #fff;
+            padding: 10px 50px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            margin: 25px 0 10px;
+            transition: 0.3s;
+            box-shadow: 0 6px 20px rgba(233, 69, 96, 0.4);
+        }
+        .download-btn:hover {
+            background: #8B0C5E;
+            transform: scale(1.03);
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.6);
+        }
+        .version {
+            font-size: 0.85rem;
+            color: #127106;
+            margin-top: 15px;
+        }
+        .footer-note {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            color: #1C24ED;
+            border-top: 1px solid #6ADA0D;
+            padding-top: 18px;
+        }
+        @media (max-width: 500px) {
+            .container { padding: 25px 18px; }
+            h1 { font-size: 2rem; }
+            .download-btn { padding: 12px 30px; font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐍 डट स्नेक गेम</h1>
+        <div class="subtitle">Dot Snake Game – Classic Snake with Modern modern game</div>
+
+        <div class="description">
+            <p><strong>डट स्नेक गेम</strong> एउटा रोमाञ्चक puzzle स्नेक गेम हो। यस game मा तपाईंहरूले स्नकेका रङ्गीचङ्गी डटहरू देख्न सक्नु हुनेछ। सर्पले frog फुड खान्छ, र अनि तपाईंले आफ्नो उच्च स्कोर कायम गर्नुहुन्छ। सरल नियम, राम्रो कन्ट्रोल बटन हरू, र आकर्षक ग्राफिक्सले यो गेमलाई सबै उमेर समूहका लाई मनोरञ्जनात्मक बनाउँछ।<br/>
+            <span style="color:#108C1A;">यो गेम मा कन्ट्रोल बटन हरू रहेका छन् । ति बटन हरू को सहायताले सर्पलाई नियन्त्रण गर्नुको साथै गेम को अन्य अप्सन लाई पनि नियन्त्रण गर्दछ।यो गेम खेल्न असीमित भएको ले जति score थप गर्दै जानु हुन्छ त्यति नै privious स्कोर थपिँदै जान्छ र गेम ओभर भए पछि privious score को समान स्कोर प्राप्त गरेर मात्र अगाडि बढ्न सकिन्छ।</span><br>
+
+<span style="color:#716AEE;"> यो गेम मा gray background रहेको छ। रंगीन बटनहरु र अरु सर्प गेम को तुलनामा यो अति आकर्षक रहेको छ।यसो हेर्दा गेम आकर्षक दृश्यले जो कोही प्रयोगकर्ताले यो गेम अति सामु पुर्याउन मदत गर्ने नै छन् कि यो गेम आकर्षक रहेको छ।अपलोड भएको केही समयमा नै 1k प्रयोगकर्ता apkpure developer store मा पाइसकेको छ।</span><br>
+
+<span style="color:#F739EA;"> यो डट snake game मा तपाईंहरूले भरपुर आनन्दका साथ खेल्न सक्नुहुने छ।सर्पलाई रंगीन सार्ने बटन ले दायाँ वा कुनै दिशामा सजिलै लैजान सकिने छ।गेम मा snake ले उसको फुडको लागि राखिए को frog emoji एक पटक eat gare पछि continue फेरि अर्को दिशामा पुनः देखा पर्ने छ।सर्पले फुड eat गर्दा स्टार स्पार्क हरू देखा पर्ने छन्। ती स्पार्क को नजर प्रत्येक युजर मा पर्ने छ र डट snake game का प्रयोग कर्ता बढ्न सक्ने छन्।
+</span><br>
+<span style="color:#0D9BC6;"> यो dot snake game मा snake को head ,eye,mouth,tongue, आदि काे स्वरूप ले प्रयोगकर्ता आकर्षित हुनेछन् रंगीन body,tail र head काे सुन्दर वनावट नै यो गेम मा मुख्य प्रयोग कार्यको आकर्षणको बिन्दु हो।गेम खेल्दै जाँदा प्राप्त गर्ने ओपनर को आकर्षित fly टेक्स्ट र point हरू ले गेम आकर्षित को बिन्दु बन्न सक्छ।सर्पलाई द्वीप नभएर बटम मा दायाँ बायाँ सार्ने बटन ले प्रयोग कार्यको मानव आकर्षित गर्छ। यो
+    github page मा यस्तै जानकारीमूलक जानकारी प्राप्त गर्न सक्नु हुनेछ यस पेज मा गेम सम्बन्धी र एप सम्बन्धीका लेखहरू र त्यसै सँग सम्बन्धित जानकारी हरू थपिँदै जानेछन्।</spam>
+
+          </p>
+        </div>
+
+        <div class="features">
+            <h3>✨ विशेषताहरू</h3>
+            <ul>
+                <li>🎮 ग्राफिक्स – आधुनिक भिजुअल सोच</li>
+                <li>🕹️ सहज कन्ट्रोल – मोबाइलमा सहजै कन्ट्रोल</li>
+                <li>🏆 उच्च स्कोर – प्रीवियस स्कोर रेकर्ड तोड्नुहोस्</li>
+                <li>📱 मोबाइल-मैत्री – मोबाइलको जुनसुकै स्क्रिनमा राम्रो</li>
+                <li>🆓 पूर्ण रूपमा निःशुल्क – कुनै शुल्क छैन</li>
+            </ul>
+        </div>
+
+        <a href="https://dw.uptodown.com/dwn/..." 
+   class="download-btn">
+   📥 APK डाउनलोड गर्नुहोस्
+</a>
+        <div class="version">संस्करण 4.2 | नि:शुल्क</div>
+        <div class="footer-note">Game Zone Free 100 – नेपालको गेमिङ  ब्लग</div>
+    </div>
+</body>
+</html>
